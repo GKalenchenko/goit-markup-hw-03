@@ -12,72 +12,85 @@
       rel="stylesheet"
     />
     <!-- Fonts end -->
+    <!-- Normalize start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <!-- Normalize end -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          ><p><span class="logo-web">Web</span>Studio</p></a
-        >
-        <ul class="list">
-          <li><a href="" class="nav-pages link header-link-current">Студия</a></li>
-          <li><a href="./portfolio.html" class="nav-pages link">Портфолио</a></li>
-          <li><a href="" class="nav-pages link">Контакты</a></li>
+    <header class="page-header">
+      <div class="container">
+        <nav>
+          <a href="./index.html" class="logo link"
+            ><p class="no-margin"><span class="logo-web">Web</span>Studio</p></a
+          >
+          <ul class="list">
+            <li><a href="" class="nav-pages link header-link-current">Студия</a></li>
+            <li><a href="./portfolio.html" class="nav-pages link">Портфолио</a></li>
+            <li><a href="" class="nav-pages link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list contact-list">
+          <li class="contact">
+            <a href="mailto:info@devstudio.com" class="contact link"> info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="contact-list list">
-        <li class="contact">
-          <a href="mailto:info@devstudio.com" class="contact link"> info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Герой -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">
-          <span class="btn-hero-description">Заказать услугу</span>
-        </button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">
+            <span class="btn-hero-description">Заказать услугу</span>
+          </button>
+        </div>
       </section>
       <!-- Наши преимущества -->
       <section class="section">
-        <!-- Заголовок h2 в этой секции будет логичным (скрытым) -->
-        <h2>Наши преимущества</h2>
-        <ul class="list">
-          <li>
-            <h3 class="title">Внимание к деталям</h3>
-            <p class="section-description">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Пунктуальность</h3>
-            <p class="section-description">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Планирование</h3>
-            <p class="section-description">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Современные технологии</h3>
-            <p class="section-description">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <!-- Заголовок h2 в этой секции будет логичным (скрытым) -->
+          <h2 class="no-margin">Наши преимущества</h2>
+          <ul class="list">
+            <li>
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="section-description">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Пунктуальность</h3>
+              <p class="section-description">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Планирование</h3>
+              <p class="section-description">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Современные технологии</h3>
+              <p class="section-description">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Чем мы занимаемся -->
       <section class="section">
+        <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
@@ -101,8 +114,10 @@
           </li>
         </ul>
       </section>
+      </div>
       <!-- Наша команда -->
       <section class="section-team">
+        <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li>
@@ -141,10 +156,12 @@
             <p lang="en" class="section-profession">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Подвал -->
     <footer>
+      <div class="container">
       <a href="./index.html" class="link"
         ><p class="logo-footer"><span class="web-footer">Web</span>Studio</p></a
       >
@@ -165,6 +182,7 @@
           <li><a href="tel:+380991111111" class="link contact-footer">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

@@ -28,7 +28,23 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid red;
+}
+
+.no-margin {
+  margin: 0
 }
 
 /*----------- header section -----------*/
@@ -41,9 +57,11 @@ body {
   color: var(--default-black);
 }
 
+
 .logo .logo-web {
   color: var(--accent-color);
 }
+
 
 
 .nav-pages {
@@ -88,6 +106,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--default-white);
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .hero-button {
@@ -126,6 +146,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin: 0;
 }
 
 /*----------- what are we doing section ----------- */
@@ -136,6 +157,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  margin: 0;
 }
 
 /*-----------our team section -----------*/
@@ -159,6 +181,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-color);
+  margin: 0;
 }
 
 /*----------- footer section -----------*/
@@ -169,6 +192,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--default-white);
+  margin: 0;
 }
 
 .web-footer {
