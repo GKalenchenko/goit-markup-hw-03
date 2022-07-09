@@ -1,0 +1,239 @@
+:root {
+  /* ---fonts--- */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* ---colors--- */
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196F3;
+  --default-black: #000000;
+  --default-white: #FFFFFF;
+  --button-hover: #188CE8;
+  /* ---bg colors--- */
+  --background-color: #2F303A;
+  --background-color-team: #F5F4FA;
+  /* ---others--- */
+
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--primary-text-color);
+}
+
+/* --reset styles-- */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+/*----------- header section -----------*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--default-black);
+}
+
+.logo .logo-web {
+  color: var(--accent-color);
+}
+
+
+.nav-pages {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-pages:hover,
+.nav-pages:focus {
+  color: var(--accent-color);
+}
+
+.header-link-current {
+  color: var(--accent-color);
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/*----------- hero section -----------  */
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--default-white);
+}
+
+.hero-button {
+  font-family: inherit;
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-hero-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--default-white);
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--button-hover);
+}
+
+/*----------- advantage section -----------  */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.section-description {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/*----------- what are we doing section ----------- */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/*-----------our team section -----------*/
+.section-team {
+  background-color: var(--background-color-team);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.section-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+/*----------- footer section -----------*/
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--default-white);
+}
+
+.web-footer {
+  color: var(--accent-color);
+}
+
+.adress-footer {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--default-white);
+}
+
+.contact-footer {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-footer:focus,
+.adress-footer:hover,
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--background-color);
+}
+
+/*----------- portfolio section -----------*/
+.button-filter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: var(--background-color-team);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--default-white);
+}
+
+.projects-title {
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.projects-title-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
