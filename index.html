@@ -24,22 +24,22 @@
   <body>
     <!-- Шапка сайта -->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container header-nav">
+        <nav class="header-nav">
           <a href="./index.html" class="logo link"
-            ><p class="no-margin"><span class="logo-web">Web</span>Studio</p></a
+            ><p><span class="logo-web">Web</span>Studio</p></a
           >
-          <ul class="list">
-            <li><a href="" class="nav-pages link header-link-current">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-pages link">Портфолио</a></li>
-            <li><a href="" class="nav-pages link">Контакты</a></li>
+          <ul class="list site-nav">
+            <li class="item"><a href="" class="link header-link-current nav-pages">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="nav-pages link">Портфолио</a></li>
+            <li class="item"><a href="" class="nav-pages link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="list contact-list">
           <li class="contact">
             <a href="mailto:info@devstudio.com" class="contact link"> info@devstudio.com</a>
           </li>
-          <li>
+          <li class="contact">
             <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -48,7 +48,7 @@
     <main>
       <!-- Герой -->
       <section class="hero">
-        <div class="container">
+        <div class="container ">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-button">
             <span class="btn-hero-description">Заказать услугу</span>
@@ -59,27 +59,27 @@
       <section class="section">
         <div class="container">
           <!-- Заголовок h2 в этой секции будет логичным (скрытым) -->
-          <h2 class="no-margin">Наши преимущества</h2>
-          <ul class="list">
-            <li>
+          <!-- <h2>Наши преимущества</h2> -->
+          <ul class="list advantage-list">
+            <li class="item">
               <h3 class="title">Внимание к деталям</h3>
               <p class="section-description">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Пунктуальность</h3>
               <p class="section-description">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Планирование</h3>
               <p class="section-description">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Современные технологии</h3>
               <p class="section-description">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -92,8 +92,8 @@
       <section class="section">
         <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list img-list">
+          <li class="item">
             <img
               src="./images/img-3.jpg"
               alt="Телефон в руке и два монитора"
@@ -101,7 +101,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/img-1.jpg"
               alt="Планшет с графикой в руках"
@@ -109,18 +109,18 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="item">
             <img src="./images/img-2.jpg" alt="Руки и стол разработчика" width="370" height="294" />
           </li>
         </ul>
       </section>
       </div>
       <!-- Наша команда -->
-      <section class="section-team">
+      <section class="section-team section">
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list team-list">
+          <li class="item">
             <img
               src="./images/ihor-demianenko.jpg"
               alt="Фотография Игоря"
@@ -130,12 +130,12 @@
             <h3 class="team-member">Игорь Демьяненко</h3>
             <p lang="en" class="section-profession">Product Designer</p>
           </li>
-          <li>
+          <li class="item">
             <img src="./images/olha-repina.jpg" alt="Фотография Ольги" width="270" height="260" />
             <h3 class="team-member">Ольга Репина</h3>
             <p lang="en" class="section-profession">Frontend Developer</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/nikolai-tarasov.jpg"
               alt="Фотография Николая"
@@ -145,7 +145,7 @@
             <h3 class="team-member">Николай Тарасов</h3>
             <p lang="en" class="section-profession">Marketing</p>
           </li>
-          <li>
+          <li class="item">
             <img
               src="./images/mihail-ermakov.jpg"
               alt="Фотография Михаила"
@@ -160,14 +160,14 @@
       </section>
     </main>
     <!-- Подвал -->
-    <footer>
+    <footer class="footer">
       <div class="container">
       <a href="./index.html" class="link"
         ><p class="logo-footer"><span class="web-footer">Web</span>Studio</p></a
       >
       <address>
         <ul class="list">
-          <li>
+          <li class="item">
             <a
               href="https://goo.gl/maps/yj2S7ksCqKv9v5Dx8"
               target="_blank"
@@ -176,10 +176,10 @@
               ><p>г. Киев, пр-т Леси Украинки, 26</p></a
             >
           </li>
-          <li>
+          <li class="item">
             <a href="mailto:info@example.com" class="link contact-footer">info@example.com</a>
           </li>
-          <li><a href="tel:+380991111111" class="link contact-footer">+38 099 111 11 11</a></li>
+          <li class="item"><a href="tel:+380991111111" class="link contact-footer">+38 099 111 11 11</a></li>
         </ul>
       </address>
       </div>
